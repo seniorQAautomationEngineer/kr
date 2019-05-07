@@ -1,0 +1,57 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" parallel="none" >
+
+    <test name="iPhone 6/7/8 Plus Chrome mobile test">
+
+        <parameter name="testBox" value="mobile" />
+        <parameter name="mobileDevice" value="iPhone 6/7/8 Plus" />
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+
+    <test name="iPhone 6/7/8 Chrome mobile test">
+
+        <parameter name="testBox" value="mobile" />
+        <parameter name="mobileDevice" value="iPhone 6/7/8" />
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+
+    <test name="iPhone X Chrome mobile test">
+
+        <parameter name="testBox" value="mobile" />
+        <parameter name="mobileDevice" value="iPhone X" />
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+    <test name="Galaxy S5 Chrome mobile test">
+
+        <parameter name="testBox" value="mobile" />
+        <parameter name="mobileDevice" value="Galaxy S5" />
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+
+
+</suite>

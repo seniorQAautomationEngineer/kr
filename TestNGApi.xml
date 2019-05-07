@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" parallel="none" >
+
+
+
+   <test name="API tests ">
+       <classes>
+            <class name = "com.kr.api.Api"/>
+       </classes>
+    </test>
+
+
+
+</suite>

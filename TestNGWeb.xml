@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" parallel="none" >
+
+
+
+   <test name="IE test ">
+       <parameter name="testBox" value="web" />
+       <parameter name="mobileDevice" value= "null" />
+        <parameter name="browser" value="ie"/>
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+    <test name="Firefox test ">
+        <parameter name="testBox" value="web" />
+        <parameter name="mobileDevice" value= "null" />
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+
+    <test name="Chrome test ">
+        <parameter name="testBox" value="web" />
+        <parameter name="mobileDevice" value= "null" />
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name = "com.kr.ui.Login"/>
+            <class name = "com.kr.ui.Fees"/>
+        </classes>
+    </test>
+
+</suite>
